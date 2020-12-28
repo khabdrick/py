@@ -15,5 +15,6 @@ while command != 'exit':
             print(phone_book[name])
         else:
             print('person not found in address book')
+            
     elif command == 'save':
         f.write(json.dumps(phone_book))
